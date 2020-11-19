@@ -27,7 +27,7 @@ while True:
         text = "Blinking"
         pyautogui.click(pyautogui.position())
     elif gaze.is_right():
-        text = "Looking right"
+        text = "Looking left"
         x = x - 10
         if x < 0:
             x = x_max
